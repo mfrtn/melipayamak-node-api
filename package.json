@@ -1,8 +1,9 @@
 {
-  "name": "melipayamak-api",
+  "name": "@mfrtn/melipayamak-api",
   "version": "0.0.1",
   "description": "melipayamak sms provider api",
   "author": "Mohammad Foroutan",
+  "private": false,
   "license": "ISC",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
