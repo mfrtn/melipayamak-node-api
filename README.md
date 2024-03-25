@@ -5,7 +5,7 @@ This is a Node.js module that allows you to interact with the Melipayamak API.
 ## Installation
 
 ```bash
-npm install --save melipayamak-api
+npm install --save @mfrtn/melipayamak-api
 ```
 
 ## Usage
@@ -15,9 +15,9 @@ npm install --save melipayamak-api
 Replace 'your-username' and 'your-password' with your actual username and password.
 
 ```typescript
-import { MelipayamakApi } from 'melipayamak-api';
+import { MelipayamakApi } from '@mfrtn/melipayamak-api';
 // OR
-const { MelipayamakApi } = require('melipayamak-api');
+const { MelipayamakApi } = require('@mfrtn/melipayamak-api');
 
 const api = new MelipayamakApi({
   username: 'your-username',
