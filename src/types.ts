@@ -1,30 +1,36 @@
 export type MelipayamakConfigs = {
-	username: string;
-	password: string;
+  username: string;
+  password: string;
 };
 
 export type MelipayamakApiOptions = {
-	host: string;
-	path: string;
-	data: MelipayamakConfigs;
+  host: string;
+  path: string;
+  data: MelipayamakConfigs;
 };
 
 export type SendSMSParams = {
-	from: string;
-	to: string | string[];
-	text: string;
-	isFlash?: boolean;
+  from: string;
+  to: string | string[];
+  text: string;
+  isFlash?: boolean;
+};
+
+export type VerifyLookupParams = {
+  to: string;
+  text: string | string[];
+  bodyId: number;
 };
 
 export type Result = {
-	Value: string;
-	RetStatus: number;
-	StrRetStatus: string;
+  Value: string;
+  RetStatus: number;
+  StrRetStatus: string;
 };
 
 export type ResponseResult = {
-	value: string;
-	retStatus: number;
-	strRetStatus: string;
-	description: string;
+  value: string;
+  retStatus: number;
+  strRetStatus: string;
+  description: string;
 };
